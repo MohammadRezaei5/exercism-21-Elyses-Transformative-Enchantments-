@@ -43,3 +43,13 @@ function sandwichTrick(deck) {
 }
 
 // console.log(sandwichTrick(deck));
+
+///---///
+
+// const deck = [1, 2, 3, 4, 10, 2];
+
+function twoIsSpecial(deck) {
+  return deck.filter((card) => card === 2);
+}
+
+// console.log(twoIsSpecial(deck));
