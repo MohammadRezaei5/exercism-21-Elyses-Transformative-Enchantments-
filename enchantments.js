@@ -19,3 +19,14 @@ function threeOfEachThree(deck) {
 }
 
 // console.log(threeOfEachThree(deck));
+
+///---///
+
+// const deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+function middleTwo(deck) {
+  const mid = deck.length / 2 - 1;
+  return deck.slice(mid, mid + 2);
+}
+
+// console.log(middleTwo(deck));
