@@ -53,3 +53,13 @@ function twoIsSpecial(deck) {
 }
 
 // console.log(twoIsSpecial(deck));
+
+///---///
+// const deck = [10, 1, 5, 3, 2, 8, 7];
+
+function perfectlyOrdered(deck) {
+  deck.sort((a, b) => a - b);
+  return deck;
+}
+
+// console.log(perfectlyOrdered(deck));
