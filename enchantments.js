@@ -63,3 +63,14 @@ function perfectlyOrdered(deck) {
 }
 
 // console.log(perfectlyOrdered(deck));
+
+///---///
+
+// const deck = [10, 1, 5, 3, 2];
+
+function reorder(deck) {
+  deck.reverse();
+  return deck;
+}
+
+// console.log(reorder(deck));
